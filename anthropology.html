@@ -11,6 +11,7 @@
     <!-- CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
     <!-- JS -->
     <script src="js/respond.js"></script>
 </head>
@@ -24,8 +25,7 @@
 		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapse">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="glyphicon glyphicon-th"></span>
+					<span class="sr-only">Toggle navigation</span>MENU
 				</button>
 			</div>
 			<div class="collapse navbar-collapse" id="collapse">
@@ -53,7 +53,7 @@
 	<!-- row 3-6: project descriptions -->
 		<section class="row">
 			<div class="col-xs-1 hidden-md hidden-lg"></div>
-			<div class="col-xs-10 col-md-12" id="jesus">
+			<div class="col-xs-10 col-md-12 project" id="jesus">
 				<h2><span class="glyphicon glyphicon-plus"></span> Jesus in Japan</h2>
 				<img src="img/shingo.jpg" alt="Grave of Christ" class="img-responsive pull-right clearfix hidden-xs hidden-sm">
 				<p><strong>May 2008 - June 2008 | Aomori, JAPAN</strong></p>
@@ -77,7 +77,7 @@
 		</section>
 		<section class="row">
 			<div class="col-xs-1 hidden-md hidden-lg"></div>
-			<div class="col-xs-10 col-md-12" id="food">
+			<div class="col-xs-10 col-md-12 project" id="food">
 				<h2><span class="glyphicon glyphicon-cutlery"></span> Genetically Modified Food in Japan</h2>
 				<img src="img/food.jpg" alt="A Japanese supermarket" class="img-responsive pull-right hidden-xs hidden-sm">
 				<p><strong>September 2008 - July 2009 | Tokyo, JAPAN</strong></p>
@@ -104,7 +104,7 @@
 		</section>
 		<section class="row">
 			<div class="col-xs-1 hidden-md hidden-lg"></div>
-			<div class="col-xs-10 col-md-12" id="papaya">
+			<div class="col-xs-10 col-md-12 project" id="papaya">
 				<h2><span class="glyphicon glyphicon-leaf"></span> Genetically Modified Papaya in Hawai'i</h2>
 				<p><img src="img/papaya.jpg" alt="Papaya" class="img-responsive pull-right hidden-xs hidden-sm"></p>
 				<p><strong>June 2011 - August 2011, June 2012 - August 2012 | Honolulu, HI</strong></p>
@@ -129,7 +129,7 @@
 		</section>
 		<section class="row">
 			<div class="col-xs-1 hidden-md hidden-lg"></div>
-			<div class="col-xs-10 col-md-12" id="flowers">
+			<div class="col-xs-10 col-md-12 project" id="flowers">
 				<h2><span class="glyphicon glyphicon-asterisk"></span> Genetically Modified Flowers in Japan & Australia</h2>
 				<img src="img/applause.jpg" alt="Suntory APPLAUSE Blue Rose" class="img-responsive pull-right hidden-xs hidden-sm">
 				<p><strong>June 2011 - August 2011, June 2012 - August 2012 | Kyoto, Osaka, and Tokyo, JAPAN & Melbourne, AUSTRALIA</strong></p>
@@ -153,7 +153,7 @@
 	</section>
 
 	<!-- row 7: teaching -->
-	<section id="teaching">
+	<section class="project" id="teaching">
 		<header class="row">
 			<h1 class="text-center">TEACHING</h1>
 		</header> 
@@ -212,15 +212,7 @@
 <!-- JS -->
 	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
-	<script>
-		$('aside').affix({
-	    offset: {
-	      top: 100
-	    , bottom: function () {
-	        return (this.bottom = $('.footer').outerHeight(true))
-		      }
-		    }
-		  })
-	</script>
+	<script src="js/viewportchecker.js"></script>
+	<script src="js/personal.js"></script>
 </body>
 </html>

@@ -1,6 +1,7 @@
 /* Modified @brand-primary */
 /* Modified @link-color */
 /* Modified @font-size-h3 */
+/* Modified btn-default-color and btn-default-bg */
 /* Modified @navbar-default-color and @navbar-default-bg */
 /* Modified @jumbotron-bg */
 /* Modified @modal-backdrop-opacity */
@@ -34,29 +35,29 @@
   background-image: none;
 }
 .btn-default {
-  background-image: -webkit-linear-gradient(top, #ffffff 0%, #e0e0e0 100%);
-  background-image: -o-linear-gradient(top, #ffffff 0%, #e0e0e0 100%);
-  background-image: linear-gradient(to bottom, #ffffff 0%, #e0e0e0 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe0e0e0', GradientType=0);
+  background-image: -webkit-linear-gradient(top, #333333 0%, #141414 100%);
+  background-image: -o-linear-gradient(top, #333333 0%, #141414 100%);
+  background-image: linear-gradient(to bottom, #333333 0%, #141414 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff333333', endColorstr='#ff141414', GradientType=0);
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
   background-repeat: repeat-x;
-  border-color: #dbdbdb;
+  border-color: #0f0f0f;
   text-shadow: 0 1px 0 #fff;
   border-color: #ccc;
 }
 .btn-default:hover,
 .btn-default:focus {
-  background-color: #e0e0e0;
+  background-color: #141414;
   background-position: 0 -15px;
 }
 .btn-default:active,
 .btn-default.active {
-  background-color: #e0e0e0;
-  border-color: #dbdbdb;
+  background-color: #141414;
+  border-color: #0f0f0f;
 }
 .btn-default:disabled,
 .btn-default[disabled] {
-  background-color: #e0e0e0;
+  background-color: #141414;
   background-image: none;
 }
 .btn-primary {
